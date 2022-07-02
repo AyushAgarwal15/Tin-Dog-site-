@@ -1,0 +1,206 @@
+body {
+  font-family: "Montserrat";
+  text-align:center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  /* we can use instead above both properties only one property that is font-family:"Montserrat-Bold"; but ye kaam nhi kr rhi thi es liye ese kiya */
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* sections  */
+
+.colored-section{
+  background-color: #ff4c68;
+  color:white;
+}
+
+.white-section{
+background-color:white;
+}
+/* Headings  */
+
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.title-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  text-align:left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+}
+.title-image {
+  width: 21%;
+  right: 23%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features section */
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.feature-box {
+  padding: 5%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial section  */
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing  */
+
+.pricing-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-header {
+  background-color: #8f8f8f;
+}
+
+.pad {
+  padding-bottom: 2.7rem;
+}
+
+/* call to action  */
+
+#cta {
+  font-family: "Montserrat-Black";
+  padding: 90px 233px;
+}
+
+/* Footer Section  */
+
+#footer {
+  margin: 100px;
+}
+
+.f-icon {
+  margin: 10px 10px 15px;
+}
+
+.f-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.f-links a:hover {
+  color: #ff4c68;
+  font-size: 2rem;
+}
+
+.home-arrow {
+  color: black;
+  background-color: #ff4c68;
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 10px;
+  position: relative;
+  left: 45rem;
+  bottom: 5px;
+}
+
+.home-arrow:hover{
+  background-color: #ff2f4f;
+}
+
+/* Responsiveness  */
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
